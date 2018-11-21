@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[about]]></title>
+    <url>%2F2018%2F11%2F21%2Fabout%2F</url>
+    <content type="text"><![CDATA[##]]></content>
+      <categories>
+        <category>about</category>
+      </categories>
+      <tags>
+        <tag>about</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[java]]></title>
     <url>%2F2018%2F11%2F20%2Fjava%2F</url>
     <content type="text"><![CDATA[本分类只用于日常的java学习笔记。有不足之处，欢迎留言指出。]]></content>
