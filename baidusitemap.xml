@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://xlc.pw/2018/11/16/hello-world/</loc>
+    <lastmod>2018-11-22T12:04:14.561Z</lastmod>
+  </url>  <url>
     <loc>https://xlc.pw/2018/11/22/java%E7%AE%80%E4%BB%8B/</loc>
-    <lastmod>2018-11-22T11:48:14.865Z</lastmod>
+    <lastmod>2018-11-22T12:03:44.843Z</lastmod>
   </url>  <url>
     <loc>https://xlc.pw/about/index.html</loc>
     <lastmod>2018-11-22T02:46:16.653Z</lastmod>
   </url>  <url>
     <loc>https://xlc.pw/2018/11/20/java/</loc>
     <lastmod>2018-11-21T11:39:05.555Z</lastmod>
-  </url>  <url>
-    <loc>https://xlc.pw/2018/11/16/hello-world/</loc>
-    <lastmod>2018-11-16T02:44:10.917Z</lastmod>
   </url>
 </urlset>
