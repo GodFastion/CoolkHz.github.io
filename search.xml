@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[java 安装教程]]></title>
+    <url>%2F2018%2F11%2F30%2Fjava-%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%2F</url>
+    <content type="text"><![CDATA[java的JDK 安装教程 java 安装教程JDK的安装与配置1.下载 点击下载JDK 选择适合自己的版本下载。 2.安装JDK 备注：路径可以选其他盘符，不建议路径包含中文名及特殊符号。 3.配置环境变量 1).右键计算机&gt;&gt;&gt;属性 2).高级系统设置&gt;&gt;&gt;环境变量 3).系统变量&gt;&gt;&gt;新建系统变量 4).打开PATH，添加变量值:%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin 5).新建变量:CLASSPATH,变量值：%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar ps: 1) .表示当前路径，%JAVA_HOME%就是引用前面指定的JAVA_HOME； 2) JAVA_HOME指明JDK安装路径，此路径下包括lib，bin，jre等文件夹，tomcat，eclipse等的运行都需要依靠此变量。 3) PATH使得系统可以在任何路径下识别java命令。 4) CLASSPATH为java加载类(class or lib)路径，只有类在classpath中，java命令才能识别。 4.测试JDK 在CMD命令窗口下输入java -version,javac,java,命令，出现如下界面，则安装成功,反之安装失败。 java的安装差不多结束了。]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>-java</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[java简介]]></title>
     <url>%2F2018%2F11%2F22%2Fjava%E7%AE%80%E4%BB%8B%2F</url>
     <content type="text"><![CDATA[第一篇博文， 既然要写java。 就先写一下java简介吧。 1.java是什么?java是一种高级的面向对象的程序设计语言。 2.JVMJava Virtual Machine，是java程序跨平台的关键，不同的平台有不同的JVM，而java字节码不包含任何与平台相关的信息，不直接与平台交互，而是通过JVM间接与平台交互。应用程序在执行时，JVM加载字节码，将字节码解释成特定平台的机器码，让平台执行。 任何一个应用程序都必须转化为机器码，才能与计算机进行交互，如果机器码的来源依赖于具体的平台，那么这个应用程序就不能跨平台。而java应用程序运行时机器码由java体系的一部分JVM提供，不受平台的限制，所以实现了跨平台。 3.java程序运行过程程序员编写的源码经编译器编译转化为字节码，字节码被加载到JVM，由JVM解释成机器码在计算机上运行。 4.java版本针对不同的用途，java分为3个版本： Java SE：java的标准版，是其他版本的基础，主要用于开发桌面应用程序。Java EE：java的企业版，主要用于开发企业级分布式网络程序。Java ME：主要用于嵌入式系统开发。 5.编程工具Eclipse：一个开放源代码的、基于Java的可扩展开发平台。 NetBeans：开放源码的Java集成开发环境，适用于各种客户机和Web应用。 IntelliJ IDEA：在代码自动提示、代码分析等方面的具有很好的功能。 MyEclipse：由Genuitec公司开发的一款商业化软件，是应用比较广泛的Java应用程序集成开发环境. EditPlus：如果正确配置Java的编译器“Javac”以及解释器“Java”后，可直接使用EditPlus编译执行Java程序。 6.编程环境JDK（Java Development Kit）称为Java开发包或Java开发工具，是一个编写Java的Applet小程序和应用程序的程序开发环境。JDK是整个Java的核心，包括了Java运行环境（Java Runtime Envirnment），一些Java工具和Java的核心类库（Java API）。不论什么Java应用服务器实质都是内置了某个版本的JDK。主流的JDK是Sun公司发布的JDK，除了Sun之外，还有很多公司和组织都开发了自己的JDK，例如，IBM公司开发的JDK，BEA公司的Jrocket，还有GNU组织开发的JDK。 另外，可以把Java API类库中的Java SE API子集和Java虚拟机这两部分统称为JRE（JAVA Runtime Environment），JRE是支持Java程序运行的标准环境[14] 。JRE是个运行环境，JDK是个开发环境。因此写Java程序的时候需要JDK，而运行Java程序的时候就需要JRE。而JDK里面已经包含了JRE，因此只要安装了JDK，就可以编辑Java程序，也可以正常运行Java程序。但由于JDK包含了许多与运行无关的内容，占用的空间较大，因此运行普通的Java程序无须安装JDK，而只需要安装JRE即可。 7.APIApplication Programming Interface，应用程序编程接口，是使用java语言编写应用程序的入口，包含源码、字节码帮助文档三部分。应用程序由一系列方法构成，方法有哪些要求？什么样的方法是编程语言接受的？API提供了一些基础的方法，程序员要实现某项功能必须遵循java语言规范，调用这些方法编写更高级的方法。 8.java特性1.简单：java语言是从C++发展起来的，取消了C++中复杂难以掌握的部分，如指针。 2.面向对象：java语言的基础。java将一切问题都看做对象与对象之间的交互，将对象抽象成方法与属性的集合。 3.分布性：包含操作分布性与数据分布性两个方面。操作分布性是指由多个主机共同完成一项功能，数据分布性是分布在多台主机上的数据当做一个完成的整体处理。 4.跨平台：java语言编写的应用程序，不受平台限制，可以由一种平台迁移到另一种平台。 5.解释型：使用java语言编写的源码被转化为字节码，字节码只有被JVM解释成机器码才能被计算机执行。 6.安全性：java语言的底层设计可以有效避免非法操作。 7.健壮性：java提供了许多机制防止运行时出现严重错误，如编译时类型检查、异常处理。 8.多线程：java支持多线程，允许进程内部多个线程同时工作。]]></content>
