@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Java开发工具的安装与使用]]></title>
     <url>%2F2018%2F12%2F04%2FJava%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8%2F</url>
-    <content type="text"><![CDATA[java的开发工具有很多， 我用的eclipse，所以写个eclipse的安装教程 ###Eclipse的安装教程 ####1.下载Eclipse 选择适合自己的版本下载 点此下载 ####2.安装Eclipse]]></content>
+    <content type="text"><![CDATA[java的开发工具有很多， 我用的eclipse，所以写个eclipse的安装教程 Eclipse的安装教程1.下载Eclipse 选择适合自己的版本下载 点此下载 2.安装Eclipse 1).双击打开Eclipse安装包程序 2).]]></content>
       <categories>
         <category>java</category>
       </categories>
