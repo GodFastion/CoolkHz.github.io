@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>CoolkHz&#39;s Blog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://xlc.pw/"/>
+  <updated>2018-12-30T10:25:30.382Z</updated>
+  <id>https://xlc.pw/</id>
+  
+  <author>
+    <name>CoolkHz</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>12-10随笔</title>
+    <link href="https://xlc.pw/2018/12/10/12-10%E9%9A%8F%E7%AC%94/"/>
+    <id>https://xlc.pw/2018/12/10/12-10随笔/</id>
+    <published>2018-12-10T11:05:18.000Z</published>
+    <updated>2018-12-30T10:25:30.382Z</updated>
+    
+    <content type="html"><![CDATA[<p>实在懒到不想写博客</p><p>写点随笔吧。</p><p>这两天多写点<br>  <a id="more"></a></p><h3 id="12-10-随笔"><a href="#12-10-随笔" class="headerlink" title="12-10 随笔"></a>12-10 随笔</h3><p>  今天呢</p><p>  前几天暖和一点</p><p>  但是也是比较冷了</p><p>  零下10℃</p><hr><p>  <img src="https://ws3.sinaimg.cn/large/005BYqpgly1fy1v69kwjaj31900u0kjm.jpg" alt=""></p><p>  前几天感冒</p><p>  在床上躺着什么也不想干</p><p>  应该是不知道干什么</p><p>  很迷茫</p><p>  一个专科生</p><p>  却还有很多想要完成的梦想</p><p>  想要去实现它</p><p>  却没有动力</p><p>  没有一个能够鼓励我的人</p><hr><p>  我呢，也是个三分钟热度的人</p><p>  做什么事不能持之以恒</p><p>  三天打鱼两天筛网</p><p>  放下一段时间</p><p>  想起来，又是一番热血</p><p>  折腾来折腾去</p><p>  折腾的还是自己</p><p>  希望能改掉这个坏毛病吧</p><hr><p>  可能等年龄大了</p><p>  就不会有这些不切实际的幻想了吧</p><p>  梦想还是要追的</p><hr><p>  我也一直相信</p><p>  努力过</p><p>  即使不成功</p><p>  也对得起自己了</p><p>  <strong>加油!!!</strong></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;实在懒到不想写博客&lt;/p&gt;
+&lt;p&gt;写点随笔吧。&lt;/p&gt;
+&lt;p&gt;这两天多写点&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="随笔" scheme="https://xlc.pw/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="https://xlc.pw/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java开发工具的安装与使用</title>
+    <link href="https://xlc.pw/2018/12/04/Java%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/"/>
+    <id>https://xlc.pw/2018/12/04/Java开发工具的安装与使用/</id>
+    <published>2018-12-04T05:47:30.000Z</published>
+    <updated>2018-12-10T11:58:17.035Z</updated>
+    
+    <content type="html"><![CDATA[<p>  java的开发工具有很多，<br>  我用的eclipse，所以写个eclipse的安装教程<br>    <a id="more"></a></p><h3 id="Eclipse的安装教程"><a href="#Eclipse的安装教程" class="headerlink" title="Eclipse的安装教程"></a>Eclipse的安装教程</h3><h4 id="1-下载Eclipse"><a href="#1-下载Eclipse" class="headerlink" title="1.下载Eclipse"></a>1.下载Eclipse</h4><p>  选择适合自己的版本下载</p><p>  <a href="https://www.eclipse.org/downloads/" target="_blank" rel="noopener">点此下载</a></p><p>  <img src="https://ws3.sinaimg.cn/large/005BYqpgly1fxuokztk9dj31ca0q6gq9.jpg" alt=""></p><h4 id="2-安装Eclipse"><a href="#2-安装Eclipse" class="headerlink" title="2.安装Eclipse"></a>2.安装Eclipse</h4><p>  1).双击打开Eclipse安装包程序</p><blockquote><p>1.如果双击安装程序，打开网页显示没有适用的JDK</p><p>2.请下载最新版JDK进行安装，</p><p>3.<a href="https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html" target="_blank" rel="noopener">点此下载</a></p><p>4.按步骤安装</p><p><img src="https://ws3.sinaimg.cn/large/005BYqpgly1fxuwb9agx5j30e00an0su.jpg" alt="" title="5"></p><p><img src="https://ws3.sinaimg.cn/large/005BYqpgly1fxuwbjh008j30e00an74k.jpg" alt="" title="6"></p><p><img src="https://ws3.sinaimg.cn/large/005BYqpgly1fxuwbus7ibj30e00an74f.jpg" alt="" title="7"></p><p>8.安装完配置环境变量，参考上一篇JDK环境变量配置。</p><p>如果未自定义安装位置请在Path中加入。</p><p>如自定义安装位置，请输入自定义安装路径。</p><p>C:\Program Files\Java\jdk-11.0.1\bin</p><p>9.JDK安装完毕即可开始安装Eclipse.</p></blockquote><p>  2).按步骤操作，安装完打开即好。</p><h4 id="3-Ps"><a href="#3-Ps" class="headerlink" title="3.Ps"></a>3.Ps</h4><p>  ps：<br>        我安装的时候忘记截图了。所以差不多了，安装没啥困难的。哈哈。</p><p>  <img src="https://ws3.sinaimg.cn/large/005BYqpgly1fxuw0i5ecjj30dw0dwwhr.jpg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;  java的开发工具有很多，&lt;br&gt;  我用的eclipse，所以写个eclipse的安装教程&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="java" scheme="https://xlc.pw/categories/java/"/>
+    
+    
+      <category term="java" scheme="https://xlc.pw/tags/java/"/>
+    
+      <category term="工具" scheme="https://xlc.pw/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>java 安装教程</title>
+    <link href="https://xlc.pw/2018/11/30/java-%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/"/>
+    <id>https://xlc.pw/2018/11/30/java-安装教程/</id>
+    <published>2018-11-30T12:27:13.000Z</published>
+    <updated>2018-12-10T11:58:14.493Z</updated>
+    
+    <content type="html"><![CDATA[<p>  java的JDK 安装教程<br>  <a id="more"></a></p><h3 id="java-安装教程"><a href="#java-安装教程" class="headerlink" title="java 安装教程"></a>java 安装教程</h3><h4 id="JDK的安装与配置"><a href="#JDK的安装与配置" class="headerlink" title="JDK的安装与配置"></a>JDK的安装与配置</h4><h5 id="1-下载"><a href="#1-下载" class="headerlink" title="1.下载"></a>1.下载</h5><p>  <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html" target="_blank" rel="noopener">点击下载JDK</a><br>  选择适合自己的版本下载。</p><h5 id="2-安装JDK"><a href="#2-安装JDK" class="headerlink" title="2.安装JDK"></a>2.安装JDK</h5><p>  备注：路径可以选其他盘符，不建议路径包含中文名及特殊符号。</p><h5 id="3-配置环境变量"><a href="#3-配置环境变量" class="headerlink" title="3.配置环境变量"></a>3.配置环境变量</h5><p>  1).右键计算机&gt;&gt;&gt;属性<br>  <img src="https://ws3.sinaimg.cn/large/005BYqpgly1fxqe0za5kmj30vn0htdhd.jpg" alt=""></p><p>  2).高级系统设置&gt;&gt;&gt;环境变量<br>  <img src="https://ws3.sinaimg.cn/large/005BYqpgly1fxqe235t2qj30dp0gt74q.jpg" alt=""></p><p>  3).系统变量&gt;&gt;&gt;新建系统变量<br>  <img src="https://ws3.sinaimg.cn/large/005BYqpgly1fxqe2e112xj30wv0l340o.jpg" alt=""></p><p>  4).打开PATH，添加变量值:%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin<br>  <img src="https://ws3.sinaimg.cn/large/005BYqpgly1fxqe2pmamxj30wc0legom.jpg" alt=""></p><p>  5).新建变量：CLASSPATH,<br>  变量值：%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar</p><p>  <img src="https://ws3.sinaimg.cn/large/005BYqpgly1fxqe2xg592j30vj0l0409.jpg" alt=""></p><p>  ps:<br>  1) .表示当前路径，%JAVA_HOME%就是引用前面指定的JAVA_HOME；<br>  2) JAVA_HOME指明JDK安装路径，此路径下包括lib，bin，jre等文件夹，tomcat，eclipse等的运行都需要依靠此变量。<br>  3) PATH使得系统可以在任何路径下识别java命令。<br>  4) CLASSPATH为java加载类(class or lib)路径，只有类在classpath中，java命令才能识别。</p><h5 id="4-测试JDK"><a href="#4-测试JDK" class="headerlink" title="4.测试JDK"></a>4.测试JDK</h5><p>  在CMD命令窗口下输入java -version,javac,java,命令，出现如下界面，则安装成功,反之安装失败。<br>  <img src="https://ws3.sinaimg.cn/large/005BYqpgly1fxqe38onsvj30rl0efjrl.jpg" alt=""><br>  <img src="https://ws3.sinaimg.cn/large/005BYqpgly1fxqe3hqlg6j30rl0fvjs9.jpg" alt=""><br>  <img src="https://ws3.sinaimg.cn/large/005BYqpgly1fxqe3p83j0j30rl0nat9p.jpg" alt=""></p><p>  java的安装差不多结束了。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;  java的JDK 安装教程&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="java" scheme="https://xlc.pw/categories/java/"/>
+    
+    
+      <category term="java" scheme="https://xlc.pw/tags/java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>java简介</title>
+    <link href="https://xlc.pw/2018/11/22/java%E7%AE%80%E4%BB%8B/"/>
+    <id>https://xlc.pw/2018/11/22/java简介/</id>
+    <published>2018-11-22T10:51:39.000Z</published>
+    <updated>2018-11-22T12:03:44.843Z</updated>
+    
+    <content type="html"><![CDATA[<p>第一篇博文，</p><p>既然要写java。</p><p>就先写一下java简介吧。<br><a id="more"></a></p><h2 id="1-java是什么"><a href="#1-java是什么" class="headerlink" title="1.java是什么?"></a>1.java是什么?</h2><p>java是一种高级的面向对象的程序设计语言。</p><h2 id="2-JVM"><a href="#2-JVM" class="headerlink" title="2.JVM"></a>2.JVM</h2><p>Java Virtual Machine，是java程序跨平台的关键，不同的平台有不同的JVM，而java字节码不包含任何与平台相关的信息，不直接与平台交互，而是通过JVM间接与平台交互。应用程序在执行时，JVM加载字节码，将字节码解释成特定平台的机器码，让平台执行。</p><p>任何一个应用程序都必须转化为机器码，才能与计算机进行交互，如果机器码的来源依赖于具体的平台，那么这个应用程序就不能跨平台。而java应用程序运行时机器码由java体系的一部分JVM提供，不受平台的限制，所以实现了跨平台。</p><h2 id="3-java程序运行过程"><a href="#3-java程序运行过程" class="headerlink" title="3.java程序运行过程"></a>3.java程序运行过程</h2><p>程序员编写的源码经编译器编译转化为字节码，字节码被加载到JVM，由JVM解释成机器码在计算机上运行。<br><img src="https://ws3.sinaimg.cn/large/005BYqpgly1fxh2lynbzhj30eg06jgln.jpg" alt=""></p><h2 id="4-java版本"><a href="#4-java版本" class="headerlink" title="4.java版本"></a>4.java版本</h2><p><strong>针对不同的用途，java分为3个版本：</strong></p><p>Java SE：java的标准版，是其他版本的基础，主要用于开发桌面应用程序。<br>Java EE：java的企业版，主要用于开发企业级分布式网络程序。<br>Java ME：主要用于嵌入式系统开发。</p><h2 id="5-编程工具"><a href="#5-编程工具" class="headerlink" title="5.编程工具"></a>5.编程工具</h2><p><a href="https://baike.baidu.com/item/Eclipse/61703" target="_blank" rel="noopener">Eclipse</a>：一个开放源代码的、基于Java的可扩展开发平台。</p><p><a href="https://baike.baidu.com/item/NetBeans" target="_blank" rel="noopener">NetBeans</a>：开放源码的Java集成开发环境，适用于各种客户机和Web应用。</p><p><a href="https://baike.baidu.com/item/IntelliJ%20IDEA" target="_blank" rel="noopener">IntelliJ IDEA</a>：在代码自动提示、代码分析等方面的具有很好的功能。</p><p><a href="https://baike.baidu.com/item/MyEclipse" target="_blank" rel="noopener">MyEclipse</a>：由Genuitec公司开发的一款商业化软件，是应用比较广泛的Java应用程序集成开发环境. EditPlus：如果正确配置Java的编译器“Javac”以及解释器“Java”后，可直接使用EditPlus编译执行Java程序。</p><h2 id="6-编程环境"><a href="#6-编程环境" class="headerlink" title="6.编程环境"></a>6.编程环境</h2><p>JDK（Java Development Kit）称为Java开发包或Java开发工具，是一个编写Java的Applet小程序和应用程序的程序开发环境。JDK是整个Java的核心，包括了Java运行环境（Java Runtime Envirnment），一些Java工具和Java的核心类库（Java API）。不论什么Java应用服务器实质都是内置了某个版本的JDK。主流的JDK是Sun公司发布的JDK，除了Sun之外，还有很多公司和组织都开发了自己的JDK，例如，IBM公司开发的JDK，BEA公司的Jrocket，还有GNU组织开发的JDK。</p><p>另外，可以把Java API类库中的Java SE API子集和Java虚拟机这两部分统称为JRE（JAVA Runtime Environment），JRE是支持Java程序运行的标准环境[14]  。<br>JRE是个运行环境，JDK是个开发环境。因此写Java程序的时候需要JDK，而运行Java程序的时候就需要JRE。而JDK里面已经包含了JRE，因此只要安装了JDK，就可以编辑Java程序，也可以正常运行Java程序。但由于JDK包含了许多与运行无关的内容，占用的空间较大，因此运行普通的Java程序无须安装JDK，而只需要安装JRE即可。</p><h2 id="7-API"><a href="#7-API" class="headerlink" title="7.API"></a>7.API</h2><p>Application Programming Interface，应用程序编程接口，是使用java语言编写应用程序的入口，包含源码、字节码帮助文档三部分。应用程序由一系列方法构成，方法有哪些要求？什么样的方法是编程语言接受的？API提供了一些基础的方法，程序员要实现某项功能必须遵循java语言规范，调用这些方法编写更高级的方法。</p><h2 id="8-java特性"><a href="#8-java特性" class="headerlink" title="8.java特性"></a>8.java特性</h2><p>1.简单：java语言是从C++发展起来的，取消了C++中复杂难以掌握的部分，如指针。</p><p>2.面向对象：java语言的基础。java将一切问题都看做对象与对象之间的交互，将对象抽象成方法与属性的集合。</p><p>3.分布性：包含操作分布性与数据分布性两个方面。操作分布性是指由多个主机共同完成一项功能，数据分布性是分布在多台主机上的数据当做一个完成的整体处理。</p><p>4.跨平台：java语言编写的应用程序，不受平台限制，可以由一种平台迁移到另一种平台。</p><p>5.解释型：使用java语言编写的源码被转化为字节码，字节码只有被JVM解释成机器码才能被计算机执行。</p><p>6.安全性：java语言的底层设计可以有效避免非法操作。</p><p>7.健壮性：java提供了许多机制防止运行时出现严重错误，如编译时类型检查、异常处理。</p><p>8.多线程：java支持多线程，允许进程内部多个线程同时工作。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;第一篇博文，&lt;/p&gt;
+&lt;p&gt;既然要写java。&lt;/p&gt;
+&lt;p&gt;就先写一下java简介吧。&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="java" scheme="https://xlc.pw/categories/java/"/>
+    
+    
+      <category term="java" scheme="https://xlc.pw/tags/java/"/>
+    
+      <category term="编程" scheme="https://xlc.pw/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+      <category term="简介" scheme="https://xlc.pw/tags/%E7%AE%80%E4%BB%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>java</title>
+    <link href="https://xlc.pw/2018/11/20/java/"/>
+    <id>https://xlc.pw/2018/11/20/java/</id>
+    <published>2018-11-20T11:27:00.000Z</published>
+    <updated>2018-11-23T10:30:58.814Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="本分类只用于日常的java学习笔记。"><a href="#本分类只用于日常的java学习笔记。" class="headerlink" title="本分类只用于日常的java学习笔记。"></a>本分类只用于日常的java学习笔记。</h2><h2 id="有不足之处，欢迎留言指出。"><a href="#有不足之处，欢迎留言指出。" class="headerlink" title="有不足之处，欢迎留言指出。"></a>有不足之处，欢迎留言指出。</h2><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;本分类只用于日常的java学习笔记。&quot;&gt;&lt;a href=&quot;#本分类只用于日常的java学习笔记。&quot; class=&quot;headerlink&quot; title=&quot;本分类只用于日常的java学习笔记。&quot;&gt;&lt;/a&gt;本分类只用于日常的java学习笔记。&lt;/h2&gt;&lt;h2 id=&quot;有不足之处，欢迎留言指出。&quot;&gt;&lt;a href=&quot;#有不足之处，欢迎留言指出。&quot; class=&quot;headerlink&quot; title=&quot;有不足之处，欢迎留言指出。&quot;&gt;&lt;/a&gt;有不足之处，欢迎留言指出。&lt;/h2&gt;
+    
+    </summary>
+    
+      <category term="java" scheme="https://xlc.pw/categories/java/"/>
+    
+    
+      <category term="java" scheme="https://xlc.pw/tags/java/"/>
+    
+      <category term="编程" scheme="https://xlc.pw/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+  </entry>
+  
+</feed>
