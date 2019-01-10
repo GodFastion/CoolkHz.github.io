@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Typecho博客程序搭建]]></title>
+    <url>%2F2019%2F01%2F09%2FTypecho%E5%8D%9A%E5%AE%A2%E7%A8%8B%E5%BA%8F%E6%90%AD%E5%BB%BA%2F</url>
+    <content type="text"><![CDATA[适合新手小白 简单几步，搭建属于你自己的blog 准备工作： 虚拟主机或者服务器 域名 一、虚拟主机 搭建博客的话 还是虚拟主机经济实惠些 所以这里我用的是虚拟主机 和上次一样 我这次演示的还是这家的主机 https://idc.xsazz.com 购买主机 1234567当然免费的主机很多但是国内的主机需要备案很麻烦选择适合自己的主机商 二、下载博客程序 先发一个轻松搭建的博客程序 点击下载 Typecho官网 官网下载的压缩包需要改成.zip 三、域名解析 推荐一个二级域名解析网 http://dns.nyyd.net 如果可以的话推荐自己购买一个域名 我这里就用二级做演示了 具体操作都差不多 打开你主机的控制面板 点击域名绑定 不同的主机控制面板不同 换汤不换药 按照提示绑定域名 推荐使用A记录解析 有的免费主机 可能不支持A记录解析 CNAME解析方法和A相同 按主机的域名绑定说明就可以 域名解析完了 接下来主机绑定域名 域名绑定完毕 四、安装博客程序 找到刚才下载的压缩包 上传到根目录 并解压 解压密码为面板登陆密码 打开控制面板首页 将php版本更改为7.2.1 点击确定 访问刚才解析的域名 会自动跳转到安装页面 点击下一步 按照主机控制面板右侧 填写数据库信息 注意区分”数据库名“和”数据库用户名“ 填写完毕点击 确认，开始安装》 等待安装成功 安装完成 接下来就可以正常访问你的博客了 你的域名后面加 /admin 则进入博客后台控制面板 恭喜你 已经有一个属于自己的博客了 快去写下第一篇文章吧！]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>博客 Typecho</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[利用OneDrive搭建个人网盘(OneIndex)]]></title>
     <url>%2F2019%2F01%2F06%2F%E5%88%A9%E7%94%A8OneDrive%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%9B%98-OneIndex%2F</url>
     <content type="text"><![CDATA[Onedrive Directory Index 不占用服务器空间，不走服务器流量， 直接列出 OneDrive 目录，文件直链下载。 Demo http://cloud.pme.pw/ OneDrive 申请一个OneDrive账号 普通用户只有25G存储 1T存储或者5T存储很好弄 搞个教育邮箱注册就是了 过一阵分享一波office365一年和OneDrive的1T或者5T的账号 收藏关注不迷路 虚拟主机 因为我用的是虚拟主机搭建的 所以下面的搭建教程是虚拟主机的 获取一个虚拟主机 国内虚拟主机有很多免费的 大家可以找一找 不过国内的主机域名都需要备案 所以有些麻烦 我这里用的是国外主机 https://idc.xsazz.com/ 主机商自行选择，链接仅供参考 下载程序代码 下载链接 下载程序压缩文件 上传程序文件至主机 可以选择FTP方式上传 也可以选择主机控制面板上传 每个主机不一样 选择适合你的方式 这里我用两种方式演示 1) 主机控制面板上传 每个主机商操作不同 教程仅供参考 按实际情况操作 打开你的主机控制面板 打开文件管理，并上传程序压缩包 将压缩包解压至wwwroot根目录 2) FTP上传 百度搜索下载8UFTP 打开8UFTP添加新站点并链接 将程序压缩包解压并上传至wwwroot根目录 PS:主机php版本需要5.6以上才可运行本程序 安装and运行程序访问主机域名，或使用域名绑定主机并访问 解析域名自行百度研究 不会可以私我邮箱 配置key 需要记住的是key好像只显示一次 大家记得备份保存 程序配置成功就可以访问你的网盘了 进入OneDrive在线网盘似乎需要某学上网 这个自行理会 特殊文件实现功能README.md、HEAD.md 、 .password特殊文件使用 可以参考https://github.com/donwa/oneindex/tree/files 在文件夹底部添加说明: 1在 OneDrive 的文件夹中添加README.md文件，使用 Markdown 语法。 在文件夹头部添加说明: 1在 OneDrive 的文件夹中添加HEAD.md 文件，使用 Markdown 语法。 加密文件夹: 1在 OneDrive 的文件夹中添加.password文件，填入密码，密码不能为空。 直接输出网页: 12345在 OneDrive 的文件夹中添加index.html 文件，程序会直接输出网页而不列目录。配合 文件展示设置-直接输出 效果更佳。 RaoDriveRaoDrive是一个可以将网盘挂载到本地的神器 官网下载RaiDrive 点我下载 自行研究将OneDrive挂载至本地 这里就不写具体教程了 如果有不会的可以私我邮箱 挂载完成 配合使用RaiDrive可以方便的整理网盘 整理完成后在网站后台记得清理页面缓存哦 差不多就到这里了 github项目地址：https://github.com/donwa/oneindex/ 联系邮箱：coolkhz@outlook.com 个人博客：https://xlc.pw/]]></content>
